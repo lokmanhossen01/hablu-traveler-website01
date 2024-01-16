@@ -1,31 +1,70 @@
+@media only screen and (min-width: 992px) {
+
+    header {
+        padding: 0 50px;
+    }
+}
+
+
 /* responsive styles for small devices or down */
 @media screen and (max-width: 600px) {
 
    /* header and navBar styles */
-   header {
-    padding: 2rem;
-   }
 
-   /* #menu-bar {
-    display: initial;
-   }
-
-   header .navBar {
-    position: absolute;
-    top: 100%; right: 0; left: 0;
-    background: #333;
-    border-top: .1rem solid rgba(255, 255, 255, .2);
-    padding: 1rem 2rem;
-   }
-
-   header .navBar li  a {
+   .hamburger {
     display: block;
-    border-radius: .5rem;
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-    background: #222;
+    cursor: pointer;
+   }
 
-   } */
+   .hamburger .line {
+        width: 1.75rem;
+        height: 3px;
+        background: #fff;
+        margin: 6px 0;
+   }
+
+   .navBar-container {
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        right: 0px;
+        width: 100vw;
+        background:  #131318;
+        transition: 0.5s;
+        height: 0;
+        overflow: hidden;
+   }
+
+   .navBar-container.active {
+        height: 450px;
+   }
+
+   .navBar-container ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+
+   }
+
+   .navBar-container.active ul {
+        opacity: 1;
+   }
+
+   .navBar-container ul li a {
+        margin-bottom: 12px;
+        color: red;
+   }
+
+   .navLogo img {
+        width: 25px;
+    }
+
+    .navLogo h3 {
+        font-size: 1.2rem;
+    }
 
     /* Banner Section Responsive */
 
@@ -70,7 +109,6 @@
     }
 
     .popular-tour-section-img {
-        border: 2px solid tomato;
         width: 100%;
         margin: 0;
         padding: 0;
@@ -132,9 +170,8 @@
         width: 100%;
     }
 
-    .newsletter-image img {
+    .newsletter-image img, .popular-tour-section-img img{
         width: 100%;
-        
     }
 
 
