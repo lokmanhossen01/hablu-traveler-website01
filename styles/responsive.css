@@ -1,15 +1,35 @@
 /* responsive styles for small devices or down */
 @media screen and (max-width: 600px) {
 
-    header {
-        
-    }
+   /* header and navBar styles */
+   header {
+    padding: 2rem;
+   }
+
+   /* #menu-bar {
+    display: initial;
+   }
+
+   header .navBar {
+    position: absolute;
+    top: 100%; right: 0; left: 0;
+    background: #333;
+    border-top: .1rem solid rgba(255, 255, 255, .2);
+    padding: 1rem 2rem;
+   }
+
+   header .navBar li  a {
+    display: block;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    background: #222;
+
+   } */
 
     /* Banner Section Responsive */
 
     .banner{
-        
-        border: 2px solid tomato;
         padding: 5px;
         height: 483px;
         justify-content: center;
@@ -32,6 +52,11 @@
         margin: 15px;
     }
 
+    .banner-btn {
+        padding: 15px;
+        margin: 15px;
+    }
+
     /* Popular Section Responsive */
     .popular-tour-section {
         display: flex;
@@ -41,39 +66,35 @@
     }
 
     .popular-tour-section-content {
-        border: 2px solid tomato;
         max-width: 100%;
     }
 
-    /* pore korba image k responsive */
     .popular-tour-section-img {
         border: 2px solid tomato;
-        width: 50%;
+        width: 100%;
         margin: 0;
         padding: 0;
     }
 
     /* DestinationSection Responsive */
-    .destinationSection-img {
-        width: 100%;
-    }
+
     .row {
-       flex-direction: column;
-       height: auto;
-       border: 2px solid tomato;
+        flex-direction: column;
+        height: auto;
+     }
 
+    .firstImage, .secondImage, .thirdImage, .forthImage, .fiveImage, .sixImage, .sevenImage {
+        width: 100%;
+        height: 150px;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), lightgray 50% / cover no-repeat;
     }
-
-    .row img {
-        
-    }
-
+    
 
     /* power-section responsive */
     .power-section-card-row {
         flex-direction: column;
         height: auto;
-        border: 2px solid tomato;
     }
 
     .card-01, .card-02 {
@@ -84,7 +105,6 @@
 
     .power-section-card-row2 {
         height: auto;
-        border: 2px solid tomato;
     }
 
     .card-03 {
@@ -94,7 +114,49 @@
 
 
     /* Responsive Newsletter */
+    .newsletter-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
    
+    .newsletter-form {
+        border-radius: 16px;
+        border: 2px solid #FF5400;
+        padding: 0;
+        width: 100%;
+    }
 
+    .newsletter-form-title {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .newsletter-image {
+        width: 50%;
+        height: auto;
+    }
+
+
+    /* Responsive Testiomonials EXTRA BONUS SECTION */
+
+    .client {
+        border: 2px solid gray;
+        border-radius: 1.5rem;
+    }
+
+    .client-container {
+        padding: 15px;
+    }
+
+    .client-grid {
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
     
 }
