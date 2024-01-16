@@ -116,10 +116,13 @@
 
     /* DestinationSection Responsive */
 
+    .destinationSection, .popular-tour-section, .popular-tour-section-img, .power-section, .banner, .client, .footer {
+        margin-top: 30px;
+    }
     .row {
         flex-direction: column;
         height: auto;
-     }
+    }
 
     .firstImage, .secondImage, .thirdImage, .forthImage, .fiveImage, .sixImage, .sevenImage {
         width: 100%;

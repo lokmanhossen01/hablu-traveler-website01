@@ -421,6 +421,10 @@ header {
     font-weight: 800;
 }
 
+.SubscribeBtn:hover, .common-btn:hover {
+    background: #131318;
+    color: #fff;
+}
 
 /* Newsletter Image */
 
