@@ -115,9 +115,8 @@
 
     /* Responsive Newsletter */
     .newsletter-section {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: auto;
+        flex-direction: column;
+        justify-content: center;
         height: auto;
         padding: 0;
         margin: 0;
@@ -126,18 +125,16 @@
     .newsletter-form {
         border-radius: 16px;
         border: 2px solid #FF5400;
-        padding: 0;
+        width: 100%;
+    }
+    
+    .newsletter-image-gallery, .newsletter-image {
         width: 100%;
     }
 
-    .newsletter-form-title {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .newsletter-image {
-        width: 50%;
-        height: auto;
+    .newsletter-image img {
+        width: 100%;
+        
     }
 
 
