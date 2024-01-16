@@ -1,0 +1,460 @@
+/* common shared styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+.container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .common-btn {
+    border-radius: 12px;
+    background: #FF5400;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+    
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    outline: none;
+    border: none;
+}
+
+.common-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.common-paragraph {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Menubar or NavBar  Styles */
+.navBar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px; 
+}
+
+
+.navLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.navLogo img {
+    width: 48px;
+    margin-right: 20px;
+}
+
+.navLogo h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.navLogo p {
+    font-size: 3rem;
+}
+
+.style-Travel {
+    color: #FF5400;
+    font-family: Mulish;
+    font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 44px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424247;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+nav li a:hover {
+    color: #fff;
+    background: #131318;
+    transition: .5s;
+}
+
+#home {
+    color: #FF5400;
+}
+
+
+
+
+/* banner section styles */
+
+
+header .banner {
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner-image.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+
+.banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+
+.banner-form {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-inputBox {
+    border: 2px solid tomato;
+    padding: 15px;
+    border-radius: 12px;
+    background: #FFF;
+    border: none;
+    outline: none;
+    margin-right: 15px;
+
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Popular Tour Section Start */
+.popular-tour-section {
+    display: flex;
+    gap: 100px;
+    margin-top: 130px;
+}
+
+.popular-tour-section-content {
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+
+.popular-tour-section-content p {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.popular-tour-section-content ul li {
+    margin-right: 20px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    /* width: 400px; */
+}
+
+
+/* Destination Section with Grid added Image Styles */
+.destinationSection {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.row {
+   height: 300px;
+   display: flex;
+   gap: 10px;
+   margin-bottom: 10px;
+   
+}
+
+.firstImage, .secondImage{
+    width: 50%;
+    position: relative;
+}
+
+.thirdImage {
+    width: 27.5%;
+    position: relative;
+}
+
+.forthImage {
+    width: 45%;
+    position: relative;
+}
+
+.fiveImage {
+    width: 27.5%;
+    position: relative;
+}
+
+
+.sixImage {
+    width: 40%;
+    position: relative;
+}
+
+.sevenImage {
+    width: 60%;
+    position: relative;
+}
+
+.country {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 2;
+    
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+.row img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Power Section Styles */
+.power-section {
+    margin-top: 130px;
+}
+.power-section-card-row {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin: 30px 0px;
+}
+
+
+.card-01 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 15px;
+    padding: 25px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card-02 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 25px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.power-section-card-row h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.power-section-card-row p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.power-section-card-row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-03 {
+    border: 2px solid tomato;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    height: 300px;
+    width: 50%;
+    padding: 25px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+
+/* Newsletter Section Styles */
+.newsletter-section {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    gap: 20px;
+
+
+    width: 100%;
+    height: 450px;
+    margin-top: 130px;
+    padding: 20px;
+
+    border: 2px solid tomato;
+
+}
+
+
+.newsletter-form {
+    border-radius: 16px;
+    border: 2px solid #FF5400;
+    padding: 20px;
+}
+
+.newsletter-form-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.newsletter-form-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 20px;
+}
+
+
+.input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.05);
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+
+
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.SubscribeBtn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    background: #FF5400;
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+/* Newsletter Image */
+
+.newsletter-image {
+    border-radius: 16px;
+    /* position: relative; */
+}
+/* .newsletter-image-overlap {
+    position: absolute;
+    border-radius: 16px;
+    transform: rotate(-19.628deg);
+    background: #FF5400;
+    height: 120px;
+} */
+
+
+
+/* Footer Section Styles */
+.footer {
+    margin-top: 130px;
+    padding: 30px;
+}
+
+.footerElement {
+    text-align: center;
+}
+
+.footerElement p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.social-links a img {
+    width: 30px;
+    margin-right: 15px;
+    margin-bottom: 70px;
+}
+
+.copyright {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 130px;
+}
